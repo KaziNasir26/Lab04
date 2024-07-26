@@ -10,7 +10,8 @@ public class SimpleArrays {
     }
 
     // Default constructor that populates the array with "Hello, ENSF 380"
-
+    public SimpleArrays() {
+        array = new String[4];
         Arrays.fill(array, "Hello, ENSF 380");
     }
 

@@ -88,8 +88,3 @@ public class SimpleArrays {
         String foundResult7 = myArray7.arrayCrop(0, 6);
         System.out.println(foundResult7); // Expected: Fail
 
-        SimpleArrays myArray8 = new SimpleArrays("Hi you");
-        String foundResult8 = myArray8.arrayCrop(3, 3);
-        System.out.println(foundResult8); // Expected: Match
-    }
-}

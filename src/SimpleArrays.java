@@ -43,7 +43,11 @@ public class SimpleArrays {
         if (startIndex == endIndex) {
             return "Match";
         }
-
+        if (startIndex > endIndex) {
+            int temp = startIndex;
+            startIndex = endIndex;
+            endIndex = temp;
+        }
         StringBuilder result = new StringBuilder();
         for (int i = startIndex; i <= endIndex; i++) {
             result.append(array[i]);

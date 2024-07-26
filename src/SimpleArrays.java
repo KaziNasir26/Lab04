@@ -4,9 +4,7 @@ public class SimpleArrays {
     private String[] array;
 
     // Constructor that accepts a String and uses Arrays.fill to populate the array
-    public SimpleArrays(String str) {
-        array = new String[4];
-        Arrays.fill(array, str);
+
     }
 
     // Default constructor that populates the array with "Hello, ENSF 380"
